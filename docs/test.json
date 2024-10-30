@@ -65,7 +65,7 @@
         },
         {
           "type": "radio",
-          "name": "ligation",  // 保留這個
+          "name": "ligation",  
           "title": "是否結紮",
           "choices": [
             { "value": "yes", "text": "是" },
@@ -103,7 +103,7 @@
         },
         {
           "type": "radio",
-          "name": "self_provided",  // 修改這裡的鍵名
+          "name": "self_provided",  
           "title": "是否自備貓砂飼料",
           "choices": [
             { "value": "yes", "text": "是" },
