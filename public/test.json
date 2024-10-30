@@ -46,7 +46,6 @@
             { "value": "18", "text": "18" },
             { "value": "19", "text": "19" },
             { "value": "20", "text": "20" }
-
           ]
         },
         {
@@ -103,13 +102,13 @@
           "description": "寫個大概區間就可以 以天為單位或以月為單位\n如須年付請標注"
         },
         {  
-        "type": "radio",
-          "name": "ligation",
+          "type": "radio",
+          "name": "self_provided",
           "title": "是否自備貓砂飼料",
           "choices": [
-          { "value": "yes", "text": "是" },
-          { "value": "no", "text": "否" }
-        ]
+            { "value": "yes", "text": "是" },
+            { "value": "no", "text": "否" }
+          ]
         },        
         {
           "type": "text",
