@@ -3,6 +3,6 @@ import vue from '@vitejs/plugin-vue';
 import vuetify from 'vite-plugin-vuetify';
 
 export default defineConfig({
-  base: '/', // 設置為根目錄
+  base: '/vue6.vue/', // 使用 GitHub Pages 專案路徑
   plugins: [vue(), vuetify()],
 });
