@@ -17,20 +17,21 @@ export default {
   mounted() {
     // 使用正確的路徑載入 JSON 文件
     fetch('/vue6.vue/test.json')
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    return response.json();
-  })
-  .then(data => {
-    this.jsonData = data;
-    console.log('Loaded data:', data);
-  })
-  .catch(error => {
-    console.error('Error loading JSON:', error);
-  })
-
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        this.jsonData = data;
+        console.log('Loaded data:', data);
+      })
+      .catch(error => {
+        console.error('Error loading JSON:', error);
+      });
+  }
+};
 </script>
 
 <style>
