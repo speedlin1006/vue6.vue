@@ -16,7 +16,7 @@ export default {
   },
   mounted() {
     // 使用正確的路徑載入 JSON 文件
-    fetch('/vue6.vue/test.json')
+    fetch('https://speedlin1006.github.io/vue6.vue/test.json')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
